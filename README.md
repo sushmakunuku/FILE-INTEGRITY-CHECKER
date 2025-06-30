@@ -1,11 +1,12 @@
-# FILE-INTEGRITY-CHECKER
+# 🔍 FILE-INTEGRITY-CHECKER
 
-## Overview
-This Python script monitors a specified directory for file changes by calculating and storing SHA-256 hashes of files. It detects:
+## 🧾 Overview
 
-- New files added
-- Existing files modified
-- Files deleted since the last check
+This Python script monitors a specified directory for file changes by calculating and storing **SHA-256 hashes** of files. It detects:
+
+- 🆕 New files added
+- ✏️ Existing files modified
+- ❌ Files deleted since the last check
 
 The script stores file hashes in a JSON file (`file_hashes.json`) to track changes between runs.
 
@@ -13,30 +14,32 @@ The script stores file hashes in a JSON file (`file_hashes.json`) to track chang
 
 ## 🔐 Screenshots
 
-### Result
-![Result](p5.png)
+### ✅ Result Output
+![Result](p11.png)
 
-![Weak Password](p6.png)
-
-## Features
-- Recursively scans all files in the target directory.
-- Uses SHA-256 hashing for file integrity verification.
-- Reports new, changed, and deleted files.
-- Saves and loads hashes from a JSON file for persistent monitoring.
+![Weak Password](p222.png)
 
 ---
 
-## Requirements
-- Python 3.x
+## ✨ Features
 
-No external libraries are required.
+- 🔁 **Recursive scanning** of all files in the target directory
+- 🔒 Uses **SHA-256 hashing** for reliable file integrity verification
+- 📋 Reports **new**, **modified**, and **deleted** files
+- 💾 **Persistent tracking** via a JSON hash store
 
 ---
 
-## Usage
+## ⚙️ Requirements
 
-1. Clone or download this repository.
-2. Run the script:
+- Python **3.x**
+- No external libraries required (uses only built-in modules)
+
+---
+
+## 🚀 Usage
+
+1. **Clone or download** this repository:
 
 ```bash
 python file_integrity_monitor.py
