@@ -1,5 +1,17 @@
 # 🔍 FILE-INTEGRITY-CHECKER
 
+**COMPANY** :- CODTECH IT SOLUTIONS 
+
+**NAME** : KUNUKU SUSHMA 
+
+**INTERN ID** : CT06DN1234
+
+**DOMAIN** : Cyber Security & Ethical Hacking
+
+**DURATION** : 6 WEEKS
+
+**MENTOR** : NEELA SANTOSH 
+
 ## 🧾 Overview
 
 This Python script monitors a specified directory for file changes by calculating and storing **SHA-256 hashes** of files. It detects:
